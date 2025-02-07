@@ -1,0 +1,43 @@
+.logo {
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  border: 3px solid #dc876f;
+}
+
+.navbar {
+  background-color: #1e2024;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.sidebar-home,
+.sidebar-user {
+  color: white;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar li {
+  list-style: none;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+}
