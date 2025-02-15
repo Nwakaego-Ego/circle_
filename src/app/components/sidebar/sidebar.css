@@ -9,8 +9,8 @@
 }
 
 .circle-outer {
-  width: 120px;
-  height: 120px;
+  width: 160px;
+  height: 160px;
   border-radius: 50%;
   border: 2px solid #94c1b7; /* Outer circle border color */
   display: flex;
@@ -63,16 +63,13 @@
   gap: 6px;
   cursor: pointer;
   border-radius: 10px;
-  width: 130px;
+  width: 150px;
 
   /* background: linear-gradient(to bottom right, #e83e8c, #6f42c1, #3490dc); */
 }
 
-.sidebar-name,
 .sidebar-code {
-  color: white;
-  font-size: 18px;
-  margin: 5px;
+  font-size: 13px;
 }
 
 .sidebar-notification {
@@ -93,4 +90,18 @@
 
 .sidebar-setting {
   background-color: #c49b82;
+}
+
+.sidebar-container-tools {
+  position: relative;
+}
+
+.notification,
+.circle,
+.yard,
+.request,
+.setting {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
