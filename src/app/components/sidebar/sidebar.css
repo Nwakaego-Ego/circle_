@@ -9,8 +9,8 @@
 }
 
 .circle-outer {
-  width: 160px;
-  height: 160px;
+  width: 120px;
+  height: 120px;
   border-radius: 50%;
   border: 2px solid #94c1b7; /* Outer circle border color */
   display: flex;
