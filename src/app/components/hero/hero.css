@@ -17,10 +17,16 @@
 
 .hero-yard {
   background-color: #fe835b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-request {
   background-color: #33bdd3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-container {

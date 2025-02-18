@@ -1,3 +1,7 @@
+.main-sidebar {
+  padding: 12px;
+}
+
 .sidebar-container-profile {
   width: 150px;
   height: 150px;
@@ -74,22 +78,37 @@
 
 .sidebar-notification {
   background-color: #64f0e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar-circle {
   background-color: #679ea5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar-yard {
   background-color: #526262;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar-request {
   background-color: #5088a3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar-setting {
   background-color: #c49b82;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar-container-tools {

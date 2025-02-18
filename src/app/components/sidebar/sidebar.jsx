@@ -14,7 +14,7 @@ import "./sidebar.css";
 
 const Sidebar = () => {
   return (
-    <>
+    <div className="main-sidebar">
       <div className="sidebar-container-profile">
         <div className="circle-outer">
           <div className="circle-middle">
@@ -52,7 +52,7 @@ const Sidebar = () => {
           <div className="setting">Setting</div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
