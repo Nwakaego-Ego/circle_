@@ -31,11 +31,12 @@
 
 .hero-container {
   display: flex;
-  background: linear-gradient(to right, #76b7b1, #cee0c6, #76b7b1);
+  /* background: linear-gradient(to right, #76b7b1, #cee0c6, #76b7b1); */
   margin-left: 60px;
   width: 650px;
   border: 4px solid #31393c;
   border-radius: 12px;
+  color: white;
 }
 
 .hero-buttons {
@@ -43,22 +44,53 @@
 }
 
 .hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.hero-container-img {
-  width: 170px;
-  height: 160px;
-  /* border-radius: 50%; */
-  /* background-color: #94c1b7; */
+/* .hero-container-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #94c1b7;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   position: relative;
+  border: 2px solid #94c1b7;
+  margin-left: 50px;
+} */
+
+.hero-container-img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background-color: #94c1b7; /* Outer cover color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: 3px solid #94c1b7;
+  overflow: hidden; /* Ensures everything stays circular */
 }
 
-.hero-container-img img {
+.hero-inner-img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  background-color: #31393c; /* Inner cover color */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.hero-image {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  position: absolute;
+  z-index: -1;
 }

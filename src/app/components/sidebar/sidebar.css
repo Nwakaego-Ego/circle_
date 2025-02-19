@@ -1,5 +1,6 @@
 .main-sidebar {
-  padding: 12px;
+  /* padding: 20px; */
+  margin-left: 50px;
 }
 
 .sidebar-container-profile {
@@ -16,7 +17,7 @@
   width: 120px;
   height: 120px;
   border-radius: 50%;
-  border: 2px solid #94c1b7; /* Outer circle border color */
+  border: 2px solid #94c1b7;
   display: flex;
   align-items: center;
   justify-content: center;

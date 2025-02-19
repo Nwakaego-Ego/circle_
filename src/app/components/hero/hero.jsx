@@ -25,13 +25,15 @@ function Hero() {
           </div>
         </div>
         <div className="hero-container-img">
-          <Image
-            src="/pretti.png"
-            alt="My Image"
-            className="hero-image"
-            width={90}
-            height={90}
-          />
+          <div className="hero-inner-img">
+            <Image
+              src="/pretti.png"
+              alt="My Image"
+              className="hero-image"
+              width={90}
+              height={90}
+            />
+          </div>
         </div>
       </div>
     </>

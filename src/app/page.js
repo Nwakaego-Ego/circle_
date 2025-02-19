@@ -13,11 +13,11 @@ export default function Home() {
         <div>
           {" "}
           <Sidebar />
-          <Post />
         </div>
         <div className="herocircle-container">
           <div>
-            <Hero />{" "}
+            <Hero />
+            <Post />
           </div>
           <div>
             <Circle />

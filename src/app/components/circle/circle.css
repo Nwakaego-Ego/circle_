@@ -1,5 +1,5 @@
 .circle-input {
-  width: 300px;
+  width: 250px;
   padding: 13px;
   margin-left: 45px;
   margin-top: 30px;
@@ -15,11 +15,11 @@
   font-weight: 500;
   border-radius: 10px;
   cursor: pointer;
-  width: 250px;
+  width: 170px;
 }
 
 .circle-buttons-container {
-  margin-top: 30px;
+  /* margin-top: 30px; */
   margin-left: 40px;
   padding: 10px;
   /* border: 2px solid rgba(240, 237, 237, 0.979); */
