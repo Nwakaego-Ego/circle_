@@ -1,3 +1,7 @@
+.circle-main-container {
+  /* margin-top: 30px; */
+}
+
 .circle-input {
   width: 250px;
   padding: 13px;
@@ -23,6 +27,7 @@
   margin-left: 40px;
   padding: 10px;
   /* border: 2px solid rgba(240, 237, 237, 0.979); */
+  border: 1px solid whitesmoke;
   padding: 30px;
   border-radius: 10px;
 }

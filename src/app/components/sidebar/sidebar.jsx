@@ -16,18 +16,14 @@ const Sidebar = () => {
   return (
     <div className="main-sidebar">
       <div className="sidebar-container-profile">
-        <div className="circle-outer">
-          <div className="circle-middle">
-            <div className="sidebar-container-img">
-              <Image
-                src="/ego.png"
-                className="sidebar-profile-image"
-                alt="My Image"
-                width={90}
-                height={90}
-              />
-            </div>
-          </div>
+        <div className="sidebar-container-img">
+          <Image
+            src="/talking_drum.png"
+            className="sidebar-profile-image"
+            alt="My Image"
+            width={90}
+            height={90}
+          />
         </div>
       </div>
       <div className="sidebar-container-tools">
