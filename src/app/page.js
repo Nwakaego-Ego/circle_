@@ -8,7 +8,7 @@ import Post from "./components/post/post";
 export default function Home() {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="sidehero-container">
         <div>
           {" "}

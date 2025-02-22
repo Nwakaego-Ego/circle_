@@ -10,8 +10,11 @@ function Hero() {
       <div className="hero-container">
         <div>
           <p>Nwakaego</p>
-          <p>
-            A little kindness from everyone will make the word a better place
+          <p className="hero-profile-text">
+            A little kindness from everyone will make the word a better place A
+            little kindness from everyone will make the world a better place. A
+            simple smile or a helping hand can brighten someone's day.
+            Compassion and understanding can create ripples of positive change.
           </p>
           <div className="hero-buttons">
             <div className="hero-item hero-yard">
